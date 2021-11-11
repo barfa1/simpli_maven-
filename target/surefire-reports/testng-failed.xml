@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <parameter name="UserName" value="svarfa@cisco.com"/>
+    <parameter name="wrongUser" value="abc@gmail.com"/>
+    <parameter name="Password" value="Simpli-ShubhPwd@123"/>
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="ReportSetup"/>
+          <include name="setup"/>
+          <include name="ExcelTest"/>
+          <include name="ReportTeardown"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
