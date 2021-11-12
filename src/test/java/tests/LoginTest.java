@@ -6,6 +6,7 @@ import java.io.IOException;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.Assert;
 //import org.openqa.selenium.By;
 //import org.openqa.selenium.WebElement;
 import org.testng.annotations.Parameters;
@@ -31,6 +32,7 @@ public class LoginTest extends BaseClass {
 		test = report.startTest("Negative Login Test");
 		LoginPage loginPage = new LoginPage();
 		loginPage.Login(wrongUser,wrongPass);
+//		Assert.assertTrue(false);
 		loginPage.Errorcheck();
 		report.endTest(test);
 	}
