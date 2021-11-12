@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37" started-at="2021-11-12T06:37:31Z" finished-at="2021-11-12T06:37:31Z">
+  <suite name="Default suite" duration-ms="40" started-at="2021-11-12T07:03:14Z" finished-at="2021-11-12T07:03:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37" started-at="2021-11-12T06:37:31Z" finished-at="2021-11-12T06:37:31Z">
-      <class name="tdd.CalculatorTest">
-        <test-method status="PASS" signature="TestAdd1()[pri:0, instance:tdd.CalculatorTest@4a87761d]" name="TestAdd1" duration-ms="11" started-at="2021-11-12T06:37:31Z" finished-at="2021-11-12T06:37:31Z">
+    <test name="Default test" duration-ms="40" started-at="2021-11-12T07:03:14Z" finished-at="2021-11-12T07:03:14Z">
+      <class name="tdd.PrimeCheckTest">
+        <test-method status="PASS" signature="CheckPrime1()[pri:0, instance:tdd.PrimeCheckTest@4a87761d]" name="CheckPrime1" duration-ms="9" started-at="2021-11-12T07:03:14Z" finished-at="2021-11-12T07:03:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestAdd1 -->
-        <test-method status="PASS" signature="TestAdd2()[pri:0, instance:tdd.CalculatorTest@4a87761d]" name="TestAdd2" duration-ms="2" started-at="2021-11-12T06:37:31Z" finished-at="2021-11-12T06:37:31Z">
+        </test-method> <!-- CheckPrime1 -->
+        <test-method status="PASS" signature="CheckPrime23()[pri:0, instance:tdd.PrimeCheckTest@4a87761d]" name="CheckPrime23" duration-ms="1" started-at="2021-11-12T07:03:14Z" finished-at="2021-11-12T07:03:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestAdd2 -->
-      </class> <!-- tdd.CalculatorTest -->
+        </test-method> <!-- CheckPrime23 -->
+        <test-method status="PASS" signature="CheckPrime4()[pri:0, instance:tdd.PrimeCheckTest@4a87761d]" name="CheckPrime4" duration-ms="1" started-at="2021-11-12T07:03:14Z" finished-at="2021-11-12T07:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPrime4 -->
+      </class> <!-- tdd.PrimeCheckTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

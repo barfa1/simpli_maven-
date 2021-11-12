@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="tests.TestNGListenerEx"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="UserName" value="svarfa@cisco.com"/>
-    <parameter name="wrongUser" value="abc@gmail.com"/>
-    <parameter name="Password" value="Simpli-ShubhPwd@123"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.LoginTest">
+      <class name="tdd.PrimeCheckTest">
         <methods>
-          <include name="teardown"/>
-          <include name="NegativeLogin" invocation-numbers="0"/>
-          <include name="ReportSetup"/>
-          <include name="setup"/>
-          <include name="ReportTeardown"/>
+          <include name="CheckPrime2"/>
         </methods>
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- tdd.PrimeCheckTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
